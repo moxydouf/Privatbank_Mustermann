@@ -55,11 +55,11 @@ This project is a small "serious game" developed for a bank to educate users abo
 
 1. Clone the repository:
    ```sh
-   git clone git@github.com:Strangeal/bank-game.git
+   git clone https://github.com/moxydouf/Privatbank_Mustermann.git
    ```
-2. Navigate to the project directory:
+2. Navigate to the project frontend directory:
    ```sh
-   cd bank-game
+   cd frontend
    ```
 3. Install dependencies:
    ```sh
