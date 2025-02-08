@@ -52,39 +52,27 @@ This project is a small "serious game" developed for a bank to educate users abo
 - XAMPP
 
 ### Installation
+1.	Clone the repository:
+git clone https://github.com/moxydouf/Privatbank_Mustermann.git
+2.	Navigate to the project frontend directory:
+cd frontend
+3.	Install dependencies:
+npm install --legacy-peer-deps
+4.	Set up XAMPP:
+1.	Download and install XAMPP from Apache Friends.
+2.	Start Apache and MySQL from the XAMPP control panel.
+3.	Go to C:\xampp\htdocs and add Folder : «Backend« 
+5.	Go to http://localhost/
+1.	Go to PhpMyAdmin
+2.	Create a new Database and name it „bank_game“
+3.	Go then to Import and import the file „bank_game.sql“
+6.	Start the development server:
+npm run dev
+or
+yarn dev
+7.	Open your browser and navigate to http://localhost:3000.
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/moxydouf/Privatbank_Mustermann.git
-   ```
-2. Navigate to the project frontend directory:
-   ```sh
-   cd frontend
-   ```
-3. Install dependencies:
-   ```sh
-   npm install --legacy-peer-deps
-   ```
-   or
-   ```sh
-   yarn install --legacy-peer-deps
-   ```
-4. Set up XAMPP:
-   - Download and install XAMPP from [Apache Friends](https://www.apachefriends.org/index.html).
-   - Start Apache and MySQL from the XAMPP control panel.
-   - Configure your PHP and MySQL settings as needed.
 
-### Running the Application
-
-1. Start the development server:
-   ```sh
-   npm run dev
-   ```
-   or
-   ```sh
-   yarn dev
-   ```
-2. Open your browser and navigate to `http://localhost:3000`.
 
 ## Project Structure
 
