@@ -1,124 +1,124 @@
-# Stock Market Game
+# Börsenspiel  
 
-## Overview
+## Übersicht  
 
-This project is a small "serious game" developed for a bank to educate users about the basics and risks of stock trading in a playful way. The game simulates a stock market environment where users can experience stock trading, including the potential for market crashes.
+Dieses Projekt ist ein kleines „Serious Game“, das für eine Bank entwickelt wurde, um Benutzer spielerisch über die Grundlagen und Risiken des Aktienhandels aufzuklären. Das Spiel simuliert eine Börsenumgebung, in der Benutzer den Aktienhandel erleben können, einschließlich der Möglichkeit eines Marktcrashs.  
 
-## Features
+## Funktionen  
 
-### User Authentication
+### Benutzer-Authentifizierung  
 
-- **Registration**: Users can create an account to participate in the game.
-- **Login**: Users can log in to access their account and continue their trading activities.
-- **Logout**: Users can log out, which clears their session and removes their details from local storage.
+- **Registrierung**: Benutzer können ein Konto erstellen, um am Spiel teilzunehmen.  
+- **Login**: Benutzer können sich anmelden, um auf ihr Konto zuzugreifen und ihre Handelsaktivitäten fortzusetzen.  
+- **Logout**: Benutzer können sich abmelden, wodurch ihre Sitzung gelöscht und ihre Details aus dem lokalen Speicher entfernt werden.  
 
-### Trading Functionality
+### Handelsfunktionen  
 
-- **Depot Holdings**: Displays the user's current play money balance, current profit/loss, current depot holdings, and the number of shares owned.
-- **Share Price Overview**: Shows the prices of the ten tradable shares.
-- **Detailed Share View**: Provides detailed information about a share, including prices from the last ten days.
-- **Order Book**: Displays all purchases and sales made by the user.
+- **Depot-Bestände**: Zeigt das aktuelle Spielgeld-Guthaben des Benutzers, den aktuellen Gewinn/Verlust, die aktuellen Depotbestände und die Anzahl der gehaltenen Aktien.  
+- **Übersicht der Aktienkurse**: Zeigt die Preise der zehn handelbaren Aktien.  
+- **Detaillierte Aktienansicht**: Bietet detaillierte Informationen zu einer Aktie, einschließlich der Preise der letzten zehn Tage.  
+- **Orderbuch**: Zeigt alle vom Benutzer getätigten Käufe und Verkäufe an.  
 
-### Stock Market Crash Simulation
+### Börsencrash-Simulation  
 
-- **Market Volatility Alert**: When the market becomes volatile and poses a risk of crashing, an alert is displayed on the screen.
-- **User Decision**: The alert provides buttons for users to either sell their stocks or hold them, allowing them to make strategic decisions during market volatility.
+- **Marktvolatilitäts-Warnung**: Wenn der Markt volatil wird und das Risiko eines Crashs besteht, wird eine Warnung auf dem Bildschirm angezeigt.  
+- **Benutzerentscheidung**: Die Warnung bietet Schaltflächen für Benutzer, um entweder ihre Aktien zu verkaufen oder sie zu behalten, sodass sie während der Marktvolatilität strategische Entscheidungen treffen können.  
 
-## Tech Stack
+## Tech-Stack  
 
-### Frontend
+### Frontend  
 
-- **React**: A JavaScript library for building user interfaces.
-- **TypeScript**: A superset of JavaScript that adds static types.
+- **React**: Eine JavaScript-Bibliothek zur Erstellung von Benutzeroberflächen.  
+- **TypeScript**: Eine Obermenge von JavaScript, die statische Typen hinzufügt.  
 
-### Backend
+### Backend  
 
-- **PHP**: A server-side scripting language.
-- **MySQL**: A relational database management system.
-- **XAMPP**: A free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages.
+- **PHP**: Eine serverseitige Skriptsprache.  
+- **MySQL**: Ein relationales Datenbankverwaltungssystem.  
+- **XAMPP**: Ein kostenloses und Open-Source-Cross-Plattform-Webserver-Lösungspaket, das hauptsächlich aus dem Apache HTTP Server, der MariaDB-Datenbank und Interpretern für Skripte in den Sprachen PHP und Perl besteht.  
 
-### Commands
+### Befehle  
 
-- **Start Development Server**: `npm run dev` or `yarn dev`
-- **Build for Production**: `npm run build` or `yarn build`
-- **Start Production Server**: `npm start` or `yarn start`
+- **Entwicklungsserver starten**: `npm run dev` oder `yarn dev`  
+- **Für Produktion bauen**: `npm run build` oder `yarn build`  
+- **Produktionsserver starten**: `npm start` oder `yarn start`  
 
-## Getting Started
+## Erste Schritte  
 
-### Prerequisites
+### Voraussetzungen  
 
-- Node.js
-- npm or yarn
-- XAMPP
+- Node.js  
+- npm oder yarn  
+- XAMPP  
 
-### Installation:
+### Installation:  
 
-1.	Clone the repository:
+1. Repository klonen:  
  ```sh
 git clone https://github.com/moxydouf/Privatbank_Mustermann.git
    ```
-2. 	Navigate to the project frontend directory:
+2. Zum Frontend-Verzeichnis des Projekts wechseln:  
  ```sh
 cd frontend
 ```
-3. Install dependencies:
+3. Abhängigkeiten installieren:  
  ```sh
 npm install --legacy-peer-deps
 ```
-4.	Set up XAMPP:
-- Download and install XAMPP from Apache Friends.
-- Start Apache and MySQL from the XAMPP control panel.
-  - Go to **C:\xampp\htdocs** in your laptop and add the folder "Backend" in it
-  - Go to **http://localhost/** on your browser
-      - Go to **"PhpMyAdmin"**
-      - Create a new Database and name it **„bank_game“**
-      - Go then to **"Import"** and import the file **„bank_game.sql“**
-  
-### Running the Application:
+4. XAMPP einrichten:  
+- XAMPP von Apache Friends herunterladen und installieren.  
+- Apache und MySQL über das XAMPP-Kontrollpanel starten.  
+  - Gehe zu **C:\xampp\htdocs** auf deinem Laptop und füge den Ordner **"Backend"** hinzu.  
+  - Gehe zu **http://localhost/** in deinem Browser.  
+      - Gehe zu **"PhpMyAdmin"**.  
+      - Erstelle eine neue Datenbank und nenne sie **„bank_game“**.  
+      - Gehe dann zu **"Import"** und importiere die Datei **„bank_game.sql“**.  
 
-1. Start the development server:
+### Anwendung ausführen:  
+
+1. Entwicklungsserver starten:  
 ```sh
 npm run dev
 ```
-or
+oder  
 ```sh
 yarn dev
 ```
-2.	Open your browser and navigate to http://localhost:3000.
+2. Öffne deinen Browser und navigiere zu **http://localhost:3000**.  
 
-## Project Structure
+## Projektstruktur  
 
-- **components**: Contains reusable UI components such as buttons, navigation menus, and stock-related components.
-- **hooks**: Custom hooks for managing authentication and other stateful logic.
-- **utils**: Utility functions for various calculations and formatting.
-- **types**: TypeScript types for defining the shape of data used in the application.
+- **components**: Enthält wiederverwendbare UI-Komponenten wie Schaltflächen, Navigationsmenüs und aktienbezogene Komponenten.  
+- **hooks**: Benutzerdefinierte Hooks zur Verwaltung von Authentifizierung und anderen zustandsbehafteten Logiken.  
+- **utils**: Dienstprogramme für verschiedene Berechnungen und Formatierungen.  
+- **types**: TypeScript-Typen zur Definition der Struktur der in der Anwendung verwendeten Daten.  
 
-## Contributors
+## Mitwirkende  
 
-We welcome contributions from the community! If you would like to contribute, please follow these steps:
+Wir begrüßen Beiträge aus der Community! Wenn du beitragen möchtest, folge bitte diesen Schritten:  
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
+1. Forke das Repository.  
+2. Erstelle einen neuen Branch (`git checkout -b feature/DeinFeature`).  
+3. Committe deine Änderungen (`git commit -m 'Feature hinzufügen'`).  
+4. Pushe den Branch (`git push origin feature/DeinFeature`).  
+5. Erstelle eine Pull-Request.  
 
-## Authentication
+## Authentifizierung  
 
-The application uses basic authentication without sessions or tokens. User details are stored in local storage to persist login state. When a user logs in, their details are saved in local storage, and when they log out, the details are cleared.
+Die Anwendung verwendet eine einfache Authentifizierung ohne Sitzungen oder Tokens. Benutzerdaten werden im lokalen Speicher gespeichert, um den Anmeldestatus beizubehalten. Wenn sich ein Benutzer anmeldet, werden seine Details im lokalen Speicher gespeichert, und wenn er sich abmeldet, werden sie gelöscht.  
 
-## Protecting Routes
+## Geschützte Routen  
 
-The trading route is protected to ensure only authenticated users can access it. If a user is not logged in, they are redirected to the login page.
+Die Handelsroute ist geschützt, um sicherzustellen, dass nur authentifizierte Benutzer darauf zugreifen können. Wenn ein Benutzer nicht angemeldet ist, wird er zur Anmeldeseite weitergeleitet.  
 
-## Stock Market Simulation
+## Börsensimulation  
 
-The game simulates stock trading with the following features:
+Das Spiel simuliert den Aktienhandel mit folgenden Funktionen:  
 
-- **Stock Price Updates**: Stock prices are updated at regular intervals, with a small chance of a market crash.
-- **Market Crash Alert**: When a market crash is imminent, an alert is displayed, allowing users to decide whether to sell their stocks or hold them.
-- **Trading Actions**: Users can buy and sell shares, with their actions reflected in their depot holdings and order book.
+- **Aktienkurs-Updates**: Aktienkurse werden in regelmäßigen Abständen aktualisiert, mit einer kleinen Wahrscheinlichkeit eines Marktcrashs.  
+- **Marktcrash-Warnung**: Wenn ein Marktcrash bevorsteht, wird eine Warnung angezeigt, die es dem Benutzer ermöglicht, zu entscheiden, ob er seine Aktien verkaufen oder behalten möchte.  
+- **Handelsaktionen**: Benutzer können Aktien kaufen und verkaufen, wobei ihre Aktionen in ihren Depotbeständen und im Orderbuch widergespiegelt werden.  
 
-## Conclusion
+## Fazit  
 
-This project provides an educational and interactive way for users to learn about stock trading and the risks involved. By simulating a stock market environment, users can experience the dynamics of trading and make strategic decisions during market volatility.
+Dieses Projekt bietet eine lehrreiche und interaktive Möglichkeit für Benutzer, den Aktienhandel und die damit verbundenen Risiken kennenzulernen. Durch die Simulation einer Börsenumgebung können Benutzer die Dynamik des Handels erleben und strategische Entscheidungen während der Marktvolatilität treffen.
