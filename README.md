@@ -68,11 +68,11 @@ npm install --legacy-peer-deps
 4.	Set up XAMPP:
 - Download and install XAMPP from Apache Friends.
 - Start Apache and MySQL from the XAMPP control panel.
-  - Go to C:\xampp\htdocs and add Folder : «Backend« 
-  - Go to http://localhost/
-      - Go to "PhpMyAdmin"
-      - Create a new Database and name it „bank_game“
-      - Go then to "Import" and import the file „bank_game.sql“
+  - Go to **C:\xampp\htdocs** in your laptop and add the folder "Backend" in it
+  - Go to **http://localhost/** on your browser
+      - Go to **"PhpMyAdmin"**
+      - Create a new Database and name it **„bank_game“**
+      - Go then to **"Import"** and import the file **„bank_game.sql“**
   
 ### Running the Application:
 
